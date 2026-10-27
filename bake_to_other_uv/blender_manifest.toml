@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+id = "bake_to_other_uv"
+version = "1.0.2"
+name = "Bake to Other UV"
+tagline = "Rebake an image texture to another UV from the Shader Editor"
+maintainer = "RedialC"
+type = "add-on"
+tags = ["Material", "UV"]
+blender_version_min = "5.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Save baked PNG files to the output or project TEX folder"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc", ".git/"]

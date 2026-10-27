@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+tests/output/
+dist/*.log
+dist/*.zip
+!dist/bake_to_other_uv-1.0.2.zip
